@@ -1,0 +1,15 @@
+﻿@model ModelViewsDemo.Models.Product
+
+<div>
+    <dl>
+        <dt>Product ID</dt>
+        <dd>@Model.ProductID</dd>
+        <dt>Name</dt>
+        <dd>@Model.Name</dd>
+        <dt>Price</dt>
+        <dd>@Model.Price</dd>
+    </dl>
+    <dl>
+        <dt>@Html.ActionLink("Back to Product List","ProductList")</dt>
+    </dl>
+</div>
